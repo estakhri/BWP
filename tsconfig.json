@@ -24,7 +24,10 @@
       "@common": ["./src/common/common"],
       "@vless": ["./src/protocols/websocket/vless"],
       "@trojan": ["./src/protocols/websocket/trojan"],
-      "@warp": ["./src/protocols/warp"]
+      "@warp": ["./src/protocols/warp"],
+      "types/*": ["./src/types/*"],
+      "kv": ["./src/kv"],
+      "auth": ["./src/auth"]
     }
   }
 }
